@@ -4,11 +4,24 @@
 
 /* GENERAL */
 body {
-  font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif;
   color: #074a73;
   background-color: #fafafa;
-  line-height: 1.65;
-  font-size: 0.85em; }
+  line-height: 1.65; }
+
+header {
+  background-image: url("../images/lyallbay.jpg");
+  background-size: cover;
+  background-color: #074a73;
+  text-align: center;
+  max-width: 1000px;
+  padding-bottom: 5px; }
+  header h1, header h2 {
+    color: #fff; }
+  header h1 {
+    padding: 5px 0;
+    font-size: 4em; }
+  header h2 {
+    font-size: 2em; }
 
 #about, #whatIdo, #online, #footer {
   text-align: center;
@@ -17,39 +30,12 @@ body {
   width: 90%;
   display: block; }
 
-#heading {
-  text-align: center;
-  max-width: 1000px;
-  padding-bottom: 5px;
-  display: block; }
-
 #whatIdo {
   text-align: left; }
-
-h1 {
-  color: #fff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0;
-  font-size: 4em;
-  margin-bottom: 0;
-  border-radius: 5px; }
-
-#heading {
-  margin-top: 0px; }
-
-.header {
-  padding-bottom: 100px; }
 
 h2 {
   font-size: 1.75em;
   margin: 0.8em; }
-
-#heading h2 {
-  font-size: 2em;
-  color: #fff; }
 
 #about h3 {
   font-size: 1.25em;
@@ -71,22 +57,7 @@ p {
   -webkit-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black; }
 
-.header {
-  margin-top: 100px;
-  padding-bottom: 100px;
-  background-image: url("../images/lyallbay.jpg");
-  background-size: cover;
-  background-repeat: no-repeat center;
-  background-color: #074a73; }
-
 /* Page navigation stylying */
-#menu {
-  height: 40px;
-  padding: 0 5px 0;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 700; }
-
 #menu ul {
   list-style: none;
   padding: 0; }
@@ -211,5 +182,9 @@ was Media Queries for mobile dropdown menu */
 @media screen and (min-width: 400px) {
   #links-content ul {
     width: 300px; } }
+
+body {
+  font-family: "Raleway", "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.85em; }
 
 /*# sourceMappingURL=styles.css.map */
